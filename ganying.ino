@@ -31,10 +31,10 @@ void loop(){
 
   
     if(dis <10){
-         myDuoJi.write(45);
+         myDuoJi.write(45);//用于调节舵机转的角度
       delay(2000);
    }else{
-        myDuoJi.write(270);
+        myDuoJi.write(270);//用于调节舵机转的角度
      }
   
 }
